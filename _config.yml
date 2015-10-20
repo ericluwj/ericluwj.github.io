@@ -1,6 +1,6 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: Eric Lu
+description: "Tech Guru, Full-stack Developer, Node.js Lover"
+meta_description: "Eric Lu, Tech Guru, Tech Consultant, Full-stack Developer, Acorno Media"
 
 aboutPage: true
 
@@ -9,15 +9,15 @@ highlighter: pygments
 
 paginate: 20
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
-google_analytics: 'UA-XXXXXXXX-X'
+domain_name: 'http://www.ericluwj.com'
+google_analytics: 'UA-69072942-1'
 disqus: false
 disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
-author:         'Your Name'
-authorTwitter:  'YourTwitterUsername'
+url:            'http://www.ericluwj.com'
+author:         'Eric Lu'
+authorTwitter:  'ericluwj'
 
 permalink:       /:year/:title/
 

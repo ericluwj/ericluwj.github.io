@@ -4,6 +4,6 @@ permalink: about/
 profile: true
 ---
 
-This is a static page. It could be an 'about page' if you'd like.
+Eric Lu is an avid tech fanatic who often provides refreshing insights on new and upcoming technologies. He is a full-stack developer and tech consultant experienced in devops including development, testing, continuous integration and deployment.
 
 {% include footer.html %}
