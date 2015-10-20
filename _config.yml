@@ -2,6 +2,8 @@ name: Eric Lu
 description: "Tech Guru, Full-stack Developer, Node.js Lover"
 meta_description: "Eric Lu, Tech Guru, Tech Consultant, Full-stack Developer, Acorno Media"
 
+email: 'ericluwj@hotmail.com'
+
 aboutPage: true
 
 markdown: redcarpet
