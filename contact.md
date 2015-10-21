@@ -6,7 +6,7 @@ title: Contact Long Haul
 <div id="contact">
   <h1 class="pageTitle">Contact Me</h1>
   <div class="contactContent">
-    <p class="intro">Do feel free to contact me if you need.</p>
+    <p class="intro">Do feel free to contact me if you need to.</p>
     <p>Location: Singapore (Sunny Island)</p>
   </div>
   <form action="http://formspree.io/ericluwj@gmail.com" method="POST">
