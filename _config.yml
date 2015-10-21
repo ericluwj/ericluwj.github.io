@@ -25,3 +25,6 @@ social:
    email: ericluwj@hotmail.com
 
 google_analytics: "UA-69072942-1"
+
+gems:
+ - jekyll-sitemap
