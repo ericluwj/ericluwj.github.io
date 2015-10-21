@@ -8,7 +8,9 @@ date:   2015-10-20
 
 For the uninformed, the MEAN stack refers to **MongoDB**, **ExpressJS**, **AngularJS**, **Node.js**.
 
-I know you probably can find some `docker-compose.yml` files at the MEAN.IO or MEAN.JS repositories, but interestingly they only cater for the application itself. How about the database? And also what if you wanted for more than development? As such, I have created my basic workflow on top of these files to provide for a more complete workflow using `docker` and `docker-compose`.
+I know you probably can find some docker files at the mean.io or mean.js repositories, but interestingly they are still pretty limited in terms of usage. What if you wanted for more than development? And besides at this time of writing, the mean.js docker files are not foolproof enough. The docker workflow for mean.js causes permission issues with additional plugins such as grunt-contrib-imagemin. As such, I have created my basic workflow on top of these files to provide for a more complete workflow using `docker` and `docker-compose`.
+
+As a sidenote, my project stems from the Yeoman generator at https://github.com/DaftMonk/generator-angular-fullstack, which provides a much more practical project framework compared to mean.io and mean.js though.
 
 ### Development / Staging
 
