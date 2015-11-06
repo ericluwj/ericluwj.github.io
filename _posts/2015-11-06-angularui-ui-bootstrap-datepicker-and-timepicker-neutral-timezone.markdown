@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "AngularUI - UI Bootstrap Datepicker and Timepicker Neutral Timezone"
-description: "This article relates to AngularJS and Angular UI Bootstrap (0.14.x), and provides a simple solution to using and storing dates or timings in a neutral timezone."
+description: "This article relates to AngularJS and Angular UI Bootstrap (0.14.x), and provides a simple solution to using and storing dates or timings in a timezone-neutral manner."
 date:   2015-11-06
 ---
 
-<p class="intro"><span class="dropcap">I</span>t's really disappointing that even with the latest version of UI Bootstrap (0.14.x), the datepicker and timepicker widgets remain having no timezone support. This article relates to AngularJS and Angular UI Bootstrap (0.14.x), and provides a simple solution to using and storing dates or timings in a neutral timezone.</p>
+<p class="intro"><span class="dropcap">I</span>t's really disappointing that even with the latest version of UI Bootstrap (0.14.x), the datepicker and timepicker widgets remain having no timezone support. This article relates to AngularJS and Angular UI Bootstrap (0.14.x), and provides a simple solution to using and storing dates or timings in a timezone-neutral manner.</p>
 
 ### Why do we need timezone support for datepicker and timepicker? ###
 
