@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Installing Docker Compose in CoreOS"
+description: "With the acquisition of Fig, it is really cool now that Docker has a new tool docker-compose that allows you to use docker on multiple docker containers all at once."
 date:   2015-10-20
 ---
 

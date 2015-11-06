@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Installing Ruby on Rails on OS X"
+description: "Sometimes, I just can't help it but lose faith in Ruby on Rails. Sure, Ruby on Rails provides a really great framework, but I have never been excited about its mediocre processing speed and of course the installation nightmare it causes on Mac OS X."
 date:   2015-10-29
 ---
 

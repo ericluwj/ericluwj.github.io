@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Contact Eric Lu
+description: Do feel free to contact me if you need to.
 ---
 
 <div id="contact">
