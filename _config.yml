@@ -3,8 +3,7 @@ description: "Tech Guru, Full-stack Developer, Node.js Lover"
 
 url: http://www.ericluwj.com
 baseurl: ""
-paginate_path: "blog/page:num/"
-permalink: blog/:title/
+paginate_path: "page:num/"
 
 markdown: redcarpet
 highlighter: pygments
@@ -30,3 +29,4 @@ gems:
  - jekyll-paginate
  - jekyll-feed
  - jekyll-sitemap
+ - jekyll-redirect-from

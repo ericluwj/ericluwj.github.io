@@ -3,6 +3,8 @@ layout: post
 title:  "AngularJS Date Range Picker in Neutral Timezone"
 description: "This article provides a solution to using and storing dates or timings with AngularJS Daterangepicker in a timezone-neutral manner."
 date:   2015-11-09
+
+redirect_from: "/blog/angularjs-date-range-picker-in-neutral-timezone/"
 ---
 
 <p class="intro"><span class="dropcap">P</span>reviously, I blogged about a way to store dates or timings using the Angular UI Bootstrap widgets in a timezone-neutral manner.</p>

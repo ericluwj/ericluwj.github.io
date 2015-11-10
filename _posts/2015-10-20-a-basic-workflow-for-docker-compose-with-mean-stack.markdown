@@ -3,6 +3,8 @@ layout: post
 title:  "A basic workflow for Docker (Compose) with MEAN stack"
 description: "Interestingly, I found a lack of articles illustrating a basic workflow for Docker or Docker Compose with the MEAN stack, so I decided to provide some insight."
 date:   2015-10-20
+
+redirect_from: "/blog/a-basic-workflow-for-docker-compose-with-mean-stack/"
 ---
 
 <p class="intro"><span class="dropcap">I</span>nterestingly, I found a lack of articles illustrating a basic workflow for Docker or Docker Compose with the MEAN stack, so I decided to provide some insight.</p>

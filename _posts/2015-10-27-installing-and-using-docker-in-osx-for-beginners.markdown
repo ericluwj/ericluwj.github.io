@@ -3,6 +3,8 @@ layout: post
 title:  "Installing & Using Docker in OS X for Beginners"
 description: "Docker is really a pretty useful tool, if you didn't know that. Never has it been easier to develop an application in a uniform environment, stage an application in a similar environment to production, and last but not least push the application up to production. So, let's start learning how to install and use Docker in OS X."
 date:   2015-10-27
+
+redirect_from: "/blog/installing-and-using-docker-in-osx-for-beginners/"
 ---
 
 <p class="intro"><span class="dropcap">D</span>ocker is really a pretty useful tool, if you didn't know that. Never has it been easier to develop an application in a uniform environment, stage an application in a similar environment to production, and last but not least push the application up to production. So, let's start learning how to install and use Docker in OS X.</p>
