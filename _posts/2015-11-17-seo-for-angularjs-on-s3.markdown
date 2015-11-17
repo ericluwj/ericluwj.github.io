@@ -85,7 +85,7 @@ As a caveat, there are a few pointers you might want to take note to be able to 
 
 1. It is a good practice to use trailing slashes for URLs (`http://www.mysite.com/faq/` is good, `http://www.mysite.com/faq` is not so good).
 2. Be careful when using (Jquery) plugins that do not integrate with AngularJS nicely or update in a two-way binding manner, as they may not function nicely in the prerendered HTML snapshot.
-3. All URLs in your application should preferrably be absolute URLs, or if you have relative URLs, do add a `<base href="/">` tag.
+3. All URLs in your application should preferrably be absolute URLs, but if you do have relative URLs, try adding a `<base href="/">` tag.
 
 In any case, you may also create your own staging Grunt workflow incorporating the use of this [grunt-prerender](https://github.com/ericluwj/grunt-prerender) tool.
 
