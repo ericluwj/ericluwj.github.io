@@ -36,6 +36,7 @@ layout: default
   "@context": "http://schema.org",
   "@type": "BlogPosting",
   "headline": "{{ page.title }}",
+  "datePublished": "{{ post.date | date_to_xmlschema }}",
   "description": "{{ page.description }}",
   "wordCount": {{ page.content | number_of_words }}
 }
