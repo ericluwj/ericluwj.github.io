@@ -13,7 +13,7 @@ These 2 functions apparently run in a largely similar manner, by executing a fil
 
 The **crucial** difference is this. `execFile` runs the executable until it exits or terminates, then returns a buffer for data on stdout or stderr with a maximum size of 200Kb. `spawn` can stream stdout or stderr back to the parent process once it starts running, and there is no limit to the size of data it can return.
 
-As such, the conclusion is, always **prefer** `spawn` over `execFile`.
+> As such, the *conclusion* is, always **prefer** `spawn` over `execFile`.
 
 Use `execFile` only if you just need a simple return status from the child process executable or if the child process executable is totally independent of the parent program.
 
