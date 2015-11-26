@@ -36,7 +36,9 @@ layout: default
   "@context": "http://schema.org",
   "@type": "BlogPosting",
   "headline": "{{ page.title }}",
-  "datePublished": "{{ post.date | date_to_xmlschema }}",
+  {% if page.image %}
+  "image": "{{ '/assets/img/' | prepend: site.baseurl | append: page.image }}",
+  {% endif %}
   "description": "{{ page.description }}",
   "wordCount": {{ page.content | number_of_words }}
 }
