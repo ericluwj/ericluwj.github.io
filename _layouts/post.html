@@ -38,6 +38,8 @@ layout: default
   "headline": "{{ page.title }}",
   {% if page.image %}
   "image": "{{ '/assets/img/' | prepend: site.baseurl | append: page.image }}",
+  {% else %}
+  "image": "https://www.gravatar.com/avatar/343222fa56219452d0bd15e53d5c9dbe?s=320",
   {% endif %}
   "datePublished": "{{ page.date | date: '%F' }}",
   "description": "{{ page.description }}",
