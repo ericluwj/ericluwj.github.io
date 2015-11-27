@@ -39,7 +39,7 @@ layout: default
   {% if page.image %}
   "image": "{{ '/assets/img/' | prepend: site.baseurl | append: page.image }}",
   {% endif %}
-  "datePublished": "{{ page.date | to_xmlschema }}",
+  "datePublished": "{{ page.date | date: '%F' }}",
   "description": "{{ page.description }}",
   "wordCount": {{ page.content | number_of_words }}
 }
