@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Best MongoDB Client for OSX"
+title:  "Best MongoDB GUI Client for OSX"
 description: "I was using the latest version of Robomongo (0.8.x), but it doesn't work when I tried to connect with authentication to my 3.0 MongoDB database."
 date:   2015-12-28
 ---
