@@ -5,7 +5,7 @@ description: "How do you fix AngularJS SPA application with HTML5 mode enabled o
 date:   2015-11-10
 ---
 
-<p class="intro"><span class="dropcap">F</span>or my latest project [Jobbies](http://www.jobbies.co/), I had it hosted on a simple static file server AWS S3, but it was soon found out that with HTML5 pushstate enabled, some links could not work properly once the site was up on AWS S3.</p>
+<p class="intro"><span class="dropcap">F</span>or my latest project <a href="http://www.jobbies.co/">Jobbies</a>, I had it hosted on a simple static file server AWS S3, but it was soon found out that with HTML5 pushstate enabled, some links could not work properly once the site was up on AWS S3.</p>
 
 Just for an example, the link `http://www.jobbies.co/faq/` no longer works by default, because the S3 file server will try to serve `http://www.jobbies.co/faq/index.html` or any other possible index files in the `faq` directory of the S3 bucket where the site was hosted on. However since the `faq` directory does not exist in the first place, a 404 error is returned.
 
