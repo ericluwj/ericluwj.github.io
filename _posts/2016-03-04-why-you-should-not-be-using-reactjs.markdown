@@ -14,7 +14,7 @@ Interestingly, React seemed to have recently become the norm for a static site (
 I hope you got that right. React simply does not provide enough value for a simple landing page, not to mention the whole lot of hassles that come with its use. Here are the reasons:
 
 1. React was built for fast and responsive user interfaces on data-driven sites. If your site contains mostly static content, where's the variable data for React to handle? What does your site need to respond to?
-2. At 35Kb in gzipped format, React provides no useful utility function nor any user interface code that you will probably use for your static site. Even AJAX calls still require the use of `fetch` or jQuery. So much for 35Kb.
+2. At 35Kb in gzipped format, React provides no useful utility function nor any user interface code that you will probably use for your static site. Even simple AJAX calls still require the use of `fetch` or jQuery. So much for 35Kb.
 3. With React, you are going to have fun wrapping parts of your HTML in `components` which really does not serve much purpose because you would rarely reuse any component or extend it. You might as well just create one single big component. The time spent doing this is simply not worth it. If you have parts of code that need to be repeated on different pages or routes, you would be better off using a simple templating language.
 4. Using JSX in React does not easily allow you to put scripts such as the Google Analytics tracking code into your HTML, so you are going to spend a lot more time than just simply copying and pasting a tracking code.
 
