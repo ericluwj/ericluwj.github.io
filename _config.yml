@@ -6,7 +6,7 @@ baseurl: ""
 paginate_path: "page:num/"
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 paginate: 5
 
 navigation:
