@@ -5,7 +5,7 @@ url: http://www.ericluwj.com
 baseurl: ""
 paginate_path: "page:num/"
 
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 paginate: 5
 
