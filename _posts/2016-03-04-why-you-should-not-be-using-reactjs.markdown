@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why you should not be using ReactJS"
-description: "But let's say if I wanted to create a really simple landing page that does not require any routes, is React really a good technology to include? The answer is: React is simply an overkill for a simple static page with mostly static content."
+description: "But let's say if I just want to create a really simple landing page with mostly static content and no routes, is React really a good technology to start with? Here is my conclusion: React is simply an overkill for a simple static page with mostly static content."
 date:   2016-03-04
 ---
 
