@@ -7,6 +7,17 @@ date:   2016-03-04
 
 <p class="intro"><span class="dropcap">J</span>ust so that you don't get me wrong, I am certainly not a ReactJS hater. In fact, I have adopted the use of React for one of my latest web projects. However, with the rising trend in the adoption of React, I noticed the rise of a whole lot of React static site projects and generators, as though React is the perfect solution to creating a static site. Is that really the case?</p>
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- ericluwj.com -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3690983003821502"
+     data-ad-slot="1621079697"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 Interestingly, React seemed to have recently become very popular for creating static sites (especially a single-page application), as though it serves a great need or purpose, and you may just have been misled into thinking that React is fundamentally important for static pages. But let's say if I just want to create a really simple landing page with mostly static content and no routes, is React really a good technology to start with? Here is my conclusion:
 
 > React is simply an overkill for a simple static page with mostly static content.
