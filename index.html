@@ -15,6 +15,21 @@ redirect_from:
   <h1 class="pageTitle">Recent Posts</h1>
   <ul class="posts noList">
     {% for post in paginator.posts %}
+      {% assign loopindex = forloop.index | modulo: 3 %}
+      {% if forloop.first == false and loopindex == 1 %}
+      <li>
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- ericluwj.com -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-3690983003821502"
+             data-ad-slot="1621079697"
+             data-ad-format="auto"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </li>
+      {% endif %}
       <li>
         <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
         <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
