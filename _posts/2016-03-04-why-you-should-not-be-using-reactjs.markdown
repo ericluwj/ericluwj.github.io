@@ -18,6 +18,8 @@ date:   2016-03-04
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+*Update: Just read [https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f) on the entire drama around React + Javascript. It is just so hilarious. The point is, if you just want to use ReactJS just because it is **cool**, it may not be such a good idea.*
+
 Interestingly, React seemed to have recently become very popular for creating static sites (especially a single-page application), as though it serves a great need or purpose, and you may just have been misled into thinking that React is fundamentally important for static pages. But let's say if I just want to create a really simple landing page with mostly static content and no routes, is React really a good technology to start with? Here is my conclusion:
 
 > React is simply an overkill for a simple static page with mostly static content.
