@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Configuring an Application Load Balancer on AWS Elastic Beanstalk"
-description: ""
+description: "It is important to take note that a lot of the AWS Elastic Beanstalk documentation still refer to the classic load balancer as the load balancer while the application load balancer actually has a whole set of different configuration options compared to the classic load balancer"
 date:   2016-12-07
 ---
 
@@ -18,7 +18,7 @@ date:   2016-12-07
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-AWS Elastic Beanstalk used to only support a very basic **classic load balancer** which does pretty much a good job. But with respect to new full stack applications that incorporate both an API server and a web server that renders the client side application, the classic load balancer is clearly lacking in functionality.
+AWS Elastic Beanstalk used to only support a very basic **classic load balancer** which does pretty much a good job. But with incoming full stack applications that incorporate both an API server and a web server that renders the client side application, the classic load balancer is clearly not the best tool for them.
 
 So here some of the powerful features that the **application load balancer** has that surpasses the **classic load balancer**:
 
@@ -26,11 +26,13 @@ So here some of the powerful features that the **application load balancer** has
 * It support sockets which are really very useful for realtime apps.
 * It provides HTTP/2 support which allows for amalgamation of various HTTP requests 
 
-It is important to take note that a lot of AWS Elastic Beanstalk documentation still refers to the **classic load balancer** as the *load balancer* while the **application load balancer** actually has a whole set of different configuration options compared to the classic load balancer. For an example, the entire documentation at [http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.managing.elb.html](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.managing.elb.html) is referring to just the classic load balancer, just in case you mistook the documentation for referring to both types of load balancers in general.
+It is important to take note that a lot of the AWS Elastic Beanstalk documentation still refer to the **classic load balancer** as the *load balancer* while the **application load balancer** actually has a whole set of different configuration options compared to the classic load balancer. For example, the entire documentation at [http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.managing.elb.html](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.managing.elb.html) is actually just referring to the classic load balancer, just in case you were misled into thinkg that the documentation applied to both types of load balancers in general.
 
-For the worst part, the **Application health check URL** within the "Health" configuration settings did not actually reflect the right setting for the **application load balancer**. I had to set the right setting using configuration files.
+For the worst part, the **Application health check URL** within the "Health" configuration settings on the AWS Elastic Beanstalk control panel did not actually reflect the right setting for the **application load balancer**. I had to set the right setting using configuration files.
 
 <img src="{{ "/assets/img/elb.png" | prepend: site.baseurl }}" />
+
+### Steps to take after setting up an AWS EB application with an application load balancer
 
 For most applications, it would be very common to perform 2 sorts of configuration:
 
