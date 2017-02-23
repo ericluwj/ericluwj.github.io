@@ -9,7 +9,7 @@ redirect_from: "/author/eric/index.html"
 <div class="post">
 	<h1 class="pageTitle">About Eric Lu</h1>
 	<div style="text-align:center">
-		<img src="//www.gravatar.com/avatar/343222fa56219452d0bd15e53d5c9dbe?s=320" alt="{{ site.title }}" class="gravatar">
+		<img src="https://www.gravatar.com/avatar/343222fa56219452d0bd15e53d5c9dbe?s=320" alt="{{ site.title }}" class="gravatar">
 	</div>
 	<p class="intro">Tech Guru, Full-stack Developer, Node.js Lover</p>
 	<p>Eric Lu is an avid tech fanatic who often provides refreshing insights on new and upcoming technologies. He is a full-stack developer and tech consultant experienced in devops and processes including development, testing, continuous integration and deployment.</p>
