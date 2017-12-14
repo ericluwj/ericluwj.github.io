@@ -11,4 +11,9 @@ I was using the latest version of Robomongo (0.8.x), but it didn't work when I t
 
 So apparently, most of the good free MongoDB clients (e.g. UMongo, MongoHub) out there were not able to work as well. I was quite disappointed. After all, it has already been 9 months since the release of MongoDB 3.0.1. And with Robomongo being considered the best MongoDB GUI client for OSX, I was wondering how it could possibly take so long for a simple patch.
 
-Fortunately, I tried [MongoChef](http://3t.io/mongochef/) and it works. And the best thing is, its UI is actually pretty user friendly and is really similar to Robomongo, and it's absolutely free for non-commercial use. If you were a Robomongo user, MongoChef would definitely be the best replacement tool for you.
+Fortunately, I tried [Studio 3T](https://studio3t.com/) (previously known as MongoChef) and it works. And the best thing is, its UI is actually pretty user friendly and is really similar to Robomongo, and it's absolutely free for non-commercial use. If you were a ex-Robomongo user, [Studio 3T](https://studio3t.com/) would definitely be the best replacement tool for you.
+
+And it's commendable that 3T has acquired Robomongo and [Studio 3T](https://studio3t.com/) will now continue the legacy of Robomongo.
+
+*Updated as of 14 December 2017.*
+
