@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "ProFTPD on Mac"
+description: "I didn't expect to find it so hard to run ProFTPD as a daemon on the Mac. Without further ado, here is the right `Launchctl` script to get it running on startup on MacOS 10.13 High Sierra."
 date:   2018-07-09
 ---
 
@@ -29,10 +30,10 @@ date:   2018-07-09
 </plist>
 {% endhighlight %}
 
-Save the above script as `/Library/LaunchDaemons/org.proftpd.proftpd.plist`.
+Save the above script as `/Library/LaunchDaemons/org.proftpd.proftpd.plist`. You probably need to use `sudo`.
 
 {% highlight bash %}
 $ sudo launchctl load /Library/LaunchDaemons/org.proftpd.proftpd.plist
 {% endhighlight %}
 
-Unfortunately, the example provided at [ProFTPD: Stopping and Starting](http://www.proftpd.org/docs/howto/Stopping.html) is currently slightly outdated.
+A slightly outdated example is provided at [ProFTPD: Stopping and Starting](http://www.proftpd.org/docs/howto/Stopping.html).
