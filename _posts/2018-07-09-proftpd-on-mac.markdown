@@ -13,10 +13,7 @@ date:   2018-07-09
 <plist version="1.0">
   <dict>
     <key>KeepAlive</key>
-      <dict>
-        <key>SuccessfulExit</key>
-          <true/>
-      </dict>
+      <true/>
     <key>Label</key>
       <string>org.proftpd.proftpd</string>
     <key>ProgramArguments</key>
@@ -26,6 +23,10 @@ date:   2018-07-09
       </array>
     <key>RunAtLoad</key>
       <true/>
+    <key>StandardOutPath</key>
+      <string>/tmp/proftpd.log</string>
+    <key>StandardErrorPath</key>
+      <string>/tmp/proftpd.err</string>
   </dict>
 </plist>
 {% endhighlight %}
